@@ -1,0 +1,72 @@
+.table-div {
+    height: 80vh;
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.table-heading {
+    margin: auto;
+    margin-bottom: 0px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.input-form {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;   
+    margin-top: 0vh; 
+    border: 1px black solid;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.labels {
+    font-size: 35px;
+    margin: auto;
+    margin-top: 1em;
+}
+
+.inputs {
+    width: 60%;
+    height: 4em;
+    margin: auto;
+    margin-bottom: 1em;
+    border-radius: 20px;
+}
+
+.dropdown {
+    list-style: none;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    max-height: 150px;
+    overflow-y: auto;
+    position: relative;
+    z-index: 1000;
+    width: 60%;
+  }
+  
+  .dropdown li {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .dropdown li:hover {
+    background-color: #f0f0f0;
+  }
+
+  .submit-button {
+    width: 60%;
+    height: 5vh;
+    margin: auto;
+  }
+
+
+  
